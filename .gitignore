@@ -1,0 +1,13 @@
+# Local hosted-site checkout and deployment metadata
+/portfolio-site/
+/.openai/
+
+# Dependencies, local settings, and temporary output
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.tar.gz
+*.tgz
+__pycache__/

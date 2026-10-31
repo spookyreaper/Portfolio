@@ -1,0 +1,11 @@
+{
+  "name": "brandon-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A personal developer portfolio. No framework or build step required.",
+  "scripts": {
+    "dev": "python3 -m http.server 3000 --directory dist",
+    "start": "python3 -m http.server 3000 --directory dist",
+    "check": "node --check dist/app.js && node --check dist/data.js"
+  }
+}

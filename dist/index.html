@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171b22">
+  <meta name="description" content="Brandon's little corner of the internet. Explore a collection of web projects, creative experiments, and things built with care.">
+  <meta property="og:title" content="Brandon — Developer & Maker">
+  <meta property="og:description" content="Ideas, brought to life. A collection of projects and creative experiments.">
+  <meta property="og:type" content="website">
+  <title>Brandon — Developer & Maker</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Manrope:wght@400;500;600;650;700;750;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="theme.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a href="#work" class="skip-link">Skip to projects</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#" aria-label="Back to home"><span class="brand-mark" aria-hidden="true">b<span></span></span><span data-profile="shortName">brandon<span class="brand-dot">.</span></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#work" class="nav-link active">Work <span class="nav-dot"></span></a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="contact-nav">Let’s talk <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-heading">
+      <div class="hero-eyebrow"><span class="tiny-line"></span><span data-profile="role">DEVELOPER. DESIGN ENTHUSIAST. MAKER.</span></div>
+      <div class="hero-main">
+        <h1 id="hero-heading"><span class="hero-first-line">Ideas, brought</span><br>to <span class="life-word">life<span class="orange">.</span><svg class="word-underline" viewBox="0 0 420 28" fill="none" aria-hidden="true"><path d="M6 17C96 4 236 3 413 12M33 25c100-7 211-7 323-5"/></svg></span></h1>
+        <div class="hero-aside">
+          <div class="asterisk" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <p data-profile="intro">I’m Brandon, a developer who loves turning a good idea into something you can click, use, and enjoy.</p>
+          <a class="text-link hero-link" href="#work">Explore my work <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v16M5 13l7 7 7-7"/></svg></a>
+        </div>
+      </div>
+      <div class="hero-bottom"><span><span class="status-dot"></span>A little corner of the internet, made by me.</span><span class="hero-location">BASED ON CURIOSITY <span aria-hidden="true">↗</span></span></div>
+    </section>
+
+    <section id="work" class="work-section wrap" aria-labelledby="work-heading">
+      <div class="section-heading"><div><div class="eyebrow"><span class="section-num">01 /</span> THE PROJECTS</div><h2 id="work-heading">A few things I’ve made<span class="orange">.</span></h2></div><p class="section-caption">From first idea to final detail.<br>Always learning along the way.</p></div>
+      <div class="project-toolbar"><div class="filters" role="group" aria-label="Filter projects"></div><span class="project-count" aria-live="polite"></span></div>
+      <p class="demo-notice" id="demo-notice">A little inspiration to start — these are demo projects. <button class="inline-button" data-open-editor>Make this portfolio yours <span aria-hidden="true">↗</span></button></p>
+      <div class="project-grid" id="project-grid"></div>
+      <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">✳</span><h3>Room for your next idea.</h3><p>Add a project to start your collection.</p><button class="button button-dark" data-open-editor>Add a project <span aria-hidden="true">+</span></button></div>
+      <div class="work-end"><span class="end-line"></span><span>GOOD THINGS START WITH A LITTLE CURIOSITY</span><span class="end-line"></span></div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-heading"><div class="wrap about-grid">
+      <div class="about-visual"><div class="about-paper"><div class="paper-top"><span>THE PERSON BEHIND THE PIXELS</span><span>↗</span></div><div class="code-symbol" aria-hidden="true">&lt;<span>/</span>&gt;</div><div class="paper-bottom"><span>Curiosity → Code → Create</span><span class="small-asterisk" aria-hidden="true">✳</span></div></div><div class="paper-note">a work in progress,<br>in the best way.</div></div>
+      <div class="about-copy"><div class="eyebrow"><span class="section-num">02 /</span> A LITTLE ABOUT ME</div><h2 id="about-heading">Part problem solver.<br>Part possibility seeker<span class="orange">.</span></h2><p data-profile="about">I like the space where thoughtful design meets useful technology. This is where I collect the things I build, the ideas I explore, and the lessons I pick up along the way.</p><p data-profile="aboutSecond">For me, the best part of making something is connecting the dots — taking a tricky problem and turning it into an experience that just feels right.</p><div class="skills" aria-label="Skills and interests"></div></div>
+    </div></section>
+
+    <section class="contact-section wrap" id="contact" aria-labelledby="contact-heading"><div class="contact-top"><div class="eyebrow"><span class="section-num">03 /</span> WHAT’S NEXT?</div><span class="contact-flower" aria-hidden="true">✳</span></div><h2 id="contact-heading">Have a good idea?<br>Let’s make it <span class="serif-word">happen.</span></h2><div class="contact-bottom"><p>A project, a collaboration, or just a hello.<br>I’d love to hear what you’re thinking.</p><div class="contact-actions"><a id="email-link" class="button button-dark" href="#contact">Say hello <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><button class="copy-email" id="copy-email" aria-label="Copy email address" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M15 8V4H4v11h4"/></svg></button></div></div><div id="social-links" class="social-links"></div></section>
+  </main>
+
+  <footer class="site-footer wrap"><span>© <span id="current-year"></span> <span data-profile="name">Brandon Alvarado</span></span><span class="footer-made">Made with care. And a little coffee.</span><div class="footer-right"><button class="customize-button" data-open-editor><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5 4 4M4 20l4-1L20 7l-4-4L4 15Z"/></svg>Customize</button><a href="#" class="back-top" aria-label="Back to top">Back to top ↑</a></div></footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="detail-title"><button class="close-dialog" aria-label="Close project details" data-close-dialog><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button><div id="project-detail"></div></dialog>
+  <dialog class="editor-dialog" id="editor-dialog" aria-labelledby="editor-title"><div class="editor-header"><div><div class="eyebrow">YOUR LITTLE CORNER</div><h2 id="editor-title">Make it yours<span class="orange">.</span></h2></div><button class="editor-close" aria-label="Close portfolio editor" data-close-dialog><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><p class="editor-note">Changes are saved in this browser. Export a backup to keep them, or update <code>data.js</code> to share them with every visitor.</p><div class="editor-tabs" role="tablist" aria-label="Portfolio editor"><button role="tab" id="tab-profile" aria-selected="true" aria-controls="panel-profile">Your profile</button><button role="tab" id="tab-projects" aria-selected="false" aria-controls="panel-projects" tabindex="-1">Your projects</button></div>
+    <div id="panel-profile" role="tabpanel" aria-labelledby="tab-profile"><form id="profile-form"><div class="form-row"><label>Full name<input name="name" required maxlength="80"></label><label>Short name<input name="shortName" required maxlength="30"></label></div><label>Your role<input name="role" required maxlength="100"></label><label>A quick introduction<textarea name="intro" rows="3" required maxlength="400"></textarea></label><label>About you<textarea name="about" rows="4" maxlength="1000"></textarea></label><label>A little more<textarea name="aboutSecond" rows="3" maxlength="1000"></textarea></label><label>Skills <span>(separate with commas)</span><input name="skills" maxlength="300"></label><label>Email<input name="email" type="email" placeholder="you@example.com" maxlength="200"></label><div class="form-row"><label>GitHub URL<input name="github" type="url" placeholder="https://github.com/you"></label><label>LinkedIn URL<input name="linkedin" type="url" placeholder="https://linkedin.com/in/you"></label></div><button class="button button-dark" type="submit">Save profile <span aria-hidden="true">✓</span></button></form></div>
+    <div id="panel-projects" role="tabpanel" aria-labelledby="tab-projects" hidden><div class="editor-projects-heading"><h3>Your collection</h3><button type="button" class="button button-small" id="add-project">Add project +</button></div><div id="editor-project-list"></div><form id="project-form" hidden><h3 id="project-form-title">Add a project</h3><input name="id" type="hidden"><label>Project name<input name="title" required maxlength="100"></label><div class="form-row"><label>Category<select name="category"><option>Web apps</option><option>Games</option><option>APIs</option></select></label><label>Year<input name="year" type="number" min="2000" max="2100" required></label></div><label>Short description<input name="subtitle" required maxlength="150"></label><label>The story<textarea name="description" rows="4" required maxlength="3000"></textarea></label><label>Technologies <span>(separate with commas)</span><input name="tags" maxlength="300" placeholder="React, CSS, Node.js"></label><label>Cover image <span>(optional URL or local asset)</span><input name="image" type="text" placeholder="assets/my-project.jpg or https://…"></label><div class="form-row"><label>Live project URL<input name="live" type="url" placeholder="https://myproject.com"></label><label>Source code URL<input name="source" type="url" placeholder="https://github.com/you/project"></label></div><div class="form-row"><button class="button button-dark" type="submit">Save project ✓</button><button class="button" type="button" id="cancel-project">Cancel</button></div></form></div>
+    <div class="editor-tools"><button id="export-data" class="inline-button">Export backup ↗</button><button id="import-button" class="inline-button" type="button">Import backup</button><input id="import-data" type="file" accept="application/json,.json" hidden><button id="reset-data" class="inline-button danger-text">Reset to published</button></div>
+  </dialog>
+  <dialog id="contact-dialog" class="contact-dialog" aria-labelledby="contact-dialog-title"><button class="close-dialog" aria-label="Close contact information" data-close-dialog><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button><span class="contact-dialog-star" aria-hidden="true">✳</span><h2 id="contact-dialog-title">A hello starts here<span class="orange">.</span></h2><p>Contact details are coming soon. If this is your portfolio, add your email and social links in the profile editor.</p><button class="button button-dark" data-open-editor>Add contact details ↗</button></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript-note">Please enable JavaScript to explore the project gallery and edit this portfolio.</div></noscript>
+</body>
+</html>
